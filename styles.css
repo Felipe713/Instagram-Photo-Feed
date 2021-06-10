@@ -2,34 +2,41 @@
     border: 1px dashed red;
     min-height: 10px;
 }*/
-
 body{
     background: gray;
     margin: 0;
 }
-
 header{
     background: white;
     padding: 10px;
 }
-
 h1{
     margin: 0;
 }
-
 .container{
     width: 600px;
     margin: auto;
 }
-
 .post{
     background: white;
+    margin-top: 10px;
 }
-
 img{
     width: 100%;
 }
-
 h2, p{
     padding: 10px;
 }
+div.post .post-header div:first-child{
+    display: inline-block;
+    width: 60%;
+}
+div.post .post-header div:last-child{
+    display: inline-block;
+    width: 35%;
+    text-align: right;
+    margin-right: 5%;
+    color: gray;
+   
+}
+
